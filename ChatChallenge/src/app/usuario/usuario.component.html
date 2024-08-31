@@ -1,0 +1,28 @@
+
+
+<div class="container mt-4">
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Usuario 1: Pepe</h5>
+            <div class="mb-3">
+              <label for="Pepe" class="form-label">Mensaje</label>
+              <input type="text" id="Pepe" class="form-control" [(ngModel)]="mensajePepe">
+            </div>
+            <button class="btn btn-primary" (click)="guardarMensaje('Pepe', mensajePepe)">Guardar Mensaje</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Usuario 2: Maria</h5>
+            <div class="mb-3">
+              <label for="Maria" class="form-label">Mensaje</label>
+              <input type="text" id="Maria" class="form-control" [(ngModel)]="mensajeMaria">
+            </div>
+            <button class="btn btn-primary" (click)="guardarMensaje('Maria', mensajeMaria)">Guardar Mensaje</button>
+          </div>
+        </div>
+      </div>

@@ -1,0 +1,7 @@
+<div class="container md-2 w-50 pt-5">
+  <!-- As a heading -->
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1">Sala de Chat</span>
+</nav>
+<app-usuario (enviar)="salaComponent.recibirMensaje($event)"></app-usuario>
+<app-sala #salaComponent></app-sala></div>

@@ -1,0 +1,11 @@
+
+<div class="container pt-5">
+  <h2>Mensajes</h2>
+  <ul>
+    <li *ngFor="let mensaje of mensajes">
+        
+      <strong>{{ mensaje.usuario }}:</strong> {{ mensaje.mensaje }}
+      
+    </li>
+  </ul>
+</div>
